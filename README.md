@@ -1,5 +1,8 @@
 # HydroVigil-1-AUV-
 **HydroVigil-1: Indigenous Autonomous Underwater Vehicle (AUV) Development for Underwater Inspection**
+![SUV3](https://github.com/user-attachments/assets/599070bd-1b04-4bce-a3b3-f55701e450d2)
+![SUV2](https://github.com/user-attachments/assets/5e2e809b-15e5-4023-8d52-25ba4734859a)
+
 
 **Project Description**
 HydroVigil-1 is an indigenous Autonomous Underwater Vehicle (AUV) designed specifically for underwater inspection tasks, such as ship hull crack identification and marine infrastructure assessments. HydroVigil-1 is engineered to operate at depths of up to 50 meters with a range of around 500 meters, providing a versatile solution for underwater inspection in various marine environments. The project is currently in the prototype phase, with ongoing testing to optimize performance and functionality.
