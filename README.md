@@ -53,20 +53,23 @@ The software architecture is based on the Robot Operating System (ROS), which pr
 
 HydroVigil-1 is currently in the prototype phase, with extensive testing being conducted in controlled environments to validate the design and functionality. Future work includes enhancing the software stack for improved autonomy, integrating advanced AI algorithms for real-time decision-making, and expanding the sensor suite for more comprehensive underwater inspections.
 
+# HydroVigil-1 AUV Project Setup
+
 ## Installation
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/HydroVigil-1.git
    cd HydroVigil-1
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Configuration
-Create a config.json file with navigation, control, vision, and communication settings:
-json
-Copy code
-{
+
+3. Install dependencies using bash:
+
+   pip install -r requirements.txt
+
+4. Configuration
+   Create a config.json file with navigation, control, vision, and communication settings:
+
+   {
     "navigation": {
         "goal": [10, 10]
     },
@@ -81,39 +84,35 @@ Copy code
         "acoustic_modem": true
     }
 }
-Usage
-Run the main program:
 
-bash
-Copy code
-python src/main.py
-Testing
-To run tests, use:
+5. Usage
+   Run the main program:
 
-bash
-Copy code
-python -m unittest discover -s tests
-python
-Copy code
+   python src/main.py
 
-### Testing Enhancements
-Add realistic assertions to the tests based on actual functionality.
+6. Testing
+   To run tests, use:
 
-#### Example: `test_crack_detection.py`
-```python
-# tests/test_crack_detection.py
-
-import unittest
-from vision.crack_detection import CrackDetection
-
-class TestCrackDetection(unittest.TestCase):
-    def test_detect_cracks(self):
-        crack_detection = CrackDetection({'model_path': 'dummy/path'})
-        cracks = crack_detection.detect_cracks()
-        self.assertIsInstance(cracks, list)
-        self.assertGreater(len(cracks), 0)
-        for crack in cracks:
-            self.assertIsInstance(crack, tuple)  # Each crack should be a tuple (x, y)
-
-if __name__
-
+   python -m unittest discover -s tests
+   ### Testing Enhancements
+   Add realistic assertions to the tests based on actual functionality.
+   
+   #### Example: `test_crack_detection.py`
+   ```python
+   # tests/test_crack_detection.py
+   
+   import unittest
+   from vision.crack_detection import CrackDetection
+   
+   class TestCrackDetection(unittest.TestCase):
+       def test_detect_cracks(self):
+           crack_detection = CrackDetection({'model_path': 'dummy/path'})
+           cracks = crack_detection.detect_cracks()
+           self.assertIsInstance(cracks, list)
+           self.assertGreater(len(cracks), 0)
+           for crack in cracks:
+               self.assertIsInstance(crack, tuple)  # Each crack should be a tuple (x, y)
+   
+   if __name__
+      
+   
