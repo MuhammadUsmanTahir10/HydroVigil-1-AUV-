@@ -1,7 +1,9 @@
 # HydroVigil-1-AUV-
 **HydroVigil-1: Indigenous Autonomous Underwater Vehicle (AUV) Development for Underwater Inspection**
-![SUV3](https://github.com/user-attachments/assets/599070bd-1b04-4bce-a3b3-f55701e450d2)
-![SUV2](https://github.com/user-attachments/assets/5e2e809b-15e5-4023-8d52-25ba4734859a)
+
+![SUV3](https://github.com/user-attachments/assets/e7fd2e5d-c78b-4eae-a38e-d5c5dc5d3cf5)
+![SUV2](https://github.com/user-attachments/assets/f55bfb68-e2c2-48b3-a50c-c66ed55a4456)
+
 
 
 **Project Description**
