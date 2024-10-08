@@ -53,6 +53,8 @@ The software architecture is based on the Robot Operating System (ROS), which pr
 
 HydroVigil-1 is currently in the prototype phase, with extensive testing being conducted in controlled environments to validate the design and functionality. Future work includes enhancing the software stack for improved autonomy, integrating advanced AI algorithms for real-time decision-making, and expanding the sensor suite for more comprehensive underwater inspections.
 
+**Note:** This is a Military based project therefore all files, data and code is confidential and same is not shared in this repository.
+
 # HydroVigil-1 AUV Project Setup
 
 ## Installation
